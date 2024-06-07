@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './AppStyle'
+import { Counter } from './counter/Counter'
+import { Box } from '@mui/material'
+import { style } from './AppStyle'
 
 function App() {
   return (
-    <div >
-      counter
-    </div>
-  );
+    <Box sx={style}>
+      <Counter />
+    </Box>
+  )
 }
 
-export default App;
+export default App
